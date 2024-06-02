@@ -6,8 +6,11 @@ Instrucciones para Ejecutar:
 git clone https://github.com/farinavic/Spoty-ETL.git
 cd Spoty-ETL
 
-2- Ingresar credenciales en los archivos de la carpeta /keys
-
+2- Ingresar credenciales en los archivos de la carpeta del contenedor de Spoty-ETL/keys corroborando que no tengan comillas, espacios, saltos de linea o cualquier caracter extra.
+Client ID de la API de Spotify: CLIENT_ID_SP.txt
+Client secret  de la API de Spotify: CLIENT_SECRET_SP.txt
+Usuario de base de datos Redshift: RS_USER.txt
+Contraseña de base de datos Redshift: RS_PWD.txt
 
 
 3- Construir e iniciar los servicios con Docker Compose usando el siguiente comando:
