@@ -4,22 +4,29 @@ Instrucciones para Ejecutar:
 1- Clonar el repositorio con el comando:
 
 git clone https://github.com/farinavic/Spoty-ETL.git
+
+
+2- Navegar a la carpeta donde se clono el repositorio con el comando:
+
 cd Spoty-ETL
 
-2- Ingresar credenciales en los archivos de la carpeta del contenedor de Spoty-ETL/keys corroborando que no tengan comillas, espacios, saltos de linea o cualquier caracter extra.
+3- Ingresar credenciales en los archivos de la carpeta de Spoty-ETL/keys corroborando que no tengan comillas, espacios, saltos de linea o cualquier caracter extra.
 Client ID de la API de Spotify: CLIENT_ID_SP.txt
 Client secret  de la API de Spotify: CLIENT_SECRET_SP.txt
 Usuario de base de datos Redshift: RS_USER.txt
 Contraseña de base de datos Redshift: RS_PWD.txt
+Puerto de base de datos Redshift: PORT_PWD.txt
+Host de base de datos Redshift: HOST_PWD.txt
+Nombre de base de datos Redshift: DB_PWD.txt
 
 
-3- Construir e iniciar los servicios con Docker Compose usando el siguiente comando:
+4- Construir e iniciar los servicios con Docker Compose usando el siguiente comando:
 
 docker-compose up --build
 
 
 
-4- Acceder a la Interfaz de Airflow abriendo el navegador y yendo a http://localhost:8080. 
+5- Acceder a la Interfaz de Airflow abriendo el navegador y yendo a http://localhost:8080. 
 
 
-5- Iniciar sesión con las credenciales airflow/airflow.
+6- Iniciar sesión con las credenciales airflow/airflow.
