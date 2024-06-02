@@ -19,6 +19,7 @@ docker-compose up --build
 
 
 
-4- Acceder a la Interfaz de Airflow
+4- Acceder a la Interfaz de Airflow abriendo el navegador y yendo a http://localhost:8080. 
 
-Abrir el navegador e ir a http://localhost:8080. Iniciar sesión con las credenciales airflow/airflow.
+
+5- Iniciar sesión con las credenciales airflow/airflow.
