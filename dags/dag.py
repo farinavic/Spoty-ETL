@@ -25,14 +25,20 @@ with open(dag_path+'/keys/'+"USER_RS.txt",'r') as f:
     rs_user=f.read()
 with open(dag_path+'/keys/'+"PW_RS.txt",'r') as f:
    rs_password= f.read()
+with open(dag_path+'/keys/'+"PORT_RS.txt",'r') as f:
+   rs_port= f.read()
+with open(dag_path+'/keys/'+"HOST_RS.txt",'r') as f:
+   rs_host= f.read()
+with open(dag_path+'/keys/'+"DB_RS.txt",'r') as f:
+   rs_db= f.read()
 
 
 # Credenciales de conexión a Redshift
 redshift_conn = {
-    'host': 'data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com',
+    'host':rs_host,
     'username': rs_user,
-    'database': 'data-engineer-database',
-    'port': '5439',
+    'database': rs_db,
+    'port': rs_port,
     'pwd': rs_password
 }
 
