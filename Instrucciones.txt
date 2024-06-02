@@ -1,5 +1,5 @@
 Instrucciones para Ejecutar:
-
+(Se tiene en cuenta que Docker y Git estan correctamente instalados)
 
 1- Clonar el repositorio con el comando:
 
