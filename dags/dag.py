@@ -57,7 +57,6 @@ spotify_dag = DAG(
 def get_token():
 
     auth_string = client_id + ':' + client_secret
-    print('todorotooo'+auth_string)
     auth_bytes = auth_string.encode('utf-8')
     auth_base64 = str(base64.b64encode(auth_bytes), 'utf-8')
 
@@ -66,12 +65,9 @@ def get_token():
         'Authorization': 'Basic ' + auth_base64,
         'Content-Type': 'application/x-www-form-urlencoded'
     }
-    print('headers')
-    print(headers['Authorization'])
     data = {'grant_type': 'client_credentials'}
 
     result = r.post(url, headers=headers, data=data)
-    print(result)
     json_result = result.json()
     token = json_result['access_token']
     return token
