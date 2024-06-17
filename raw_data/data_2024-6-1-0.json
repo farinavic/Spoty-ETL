@@ -1,0 +1,2486 @@
+{
+    "results": [
+        {
+            "tracks": [
+                {
+                    "album": {
+                        "album_type": "album",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/5YCc6xS5Gpj3EkaYGdjyNK"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/5YCc6xS5Gpj3EkaYGdjyNK",
+                                "id": "5YCc6xS5Gpj3EkaYGdjyNK",
+                                "name": "WOS",
+                                "type": "artist",
+                                "uri": "spotify:artist:5YCc6xS5Gpj3EkaYGdjyNK"
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/0t9xw4VcPabCkwVO77u31Z"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/0t9xw4VcPabCkwVO77u31Z",
+                        "id": "0t9xw4VcPabCkwVO77u31Z",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/ab67616d0000b273c678828a5678109a13f20ba2",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/ab67616d00001e02c678828a5678109a13f20ba2",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/ab67616d00004851c678828a5678109a13f20ba2",
+                                "width": 64
+                            }
+                        ],
+                        "is_playable": true,
+                        "name": "DESCARTABLE",
+                        "release_date": "2024-03-21",
+                        "release_date_precision": "day",
+                        "total_tracks": 16,
+                        "type": "album",
+                        "uri": "spotify:album:0t9xw4VcPabCkwVO77u31Z"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/5YCc6xS5Gpj3EkaYGdjyNK"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/5YCc6xS5Gpj3EkaYGdjyNK",
+                            "id": "5YCc6xS5Gpj3EkaYGdjyNK",
+                            "name": "WOS",
+                            "type": "artist",
+                            "uri": "spotify:artist:5YCc6xS5Gpj3EkaYGdjyNK"
+                        }
+                    ],
+                    "disc_number": 1,
+                    "duration_ms": 183547,
+                    "explicit": false,
+                    "external_ids": {
+                        "isrc": "UYB282206048"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/2GNjjWYymmIS8HEC4Xp2eu"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/2GNjjWYymmIS8HEC4Xp2eu",
+                    "id": "2GNjjWYymmIS8HEC4Xp2eu",
+                    "is_local": false,
+                    "is_playable": true,
+                    "name": "ARRANC\u00c1RMELO",
+                    "popularity": 63,
+                    "preview_url": "https://p.scdn.co/mp3-preview/5112f3a5e3960ea8a1d5bbcf875b10721c72b5b6?cid=ccbde3ac5eed42d9be7c79f147b19097",
+                    "track_number": 16,
+                    "type": "track",
+                    "uri": "spotify:track:2GNjjWYymmIS8HEC4Xp2eu"
+                },
+                {
+                    "album": {
+                        "album_type": "album",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/5YCc6xS5Gpj3EkaYGdjyNK"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/5YCc6xS5Gpj3EkaYGdjyNK",
+                                "id": "5YCc6xS5Gpj3EkaYGdjyNK",
+                                "name": "WOS",
+                                "type": "artist",
+                                "uri": "spotify:artist:5YCc6xS5Gpj3EkaYGdjyNK"
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/7L6gLnSJBTU0tOneX0Ol91"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/7L6gLnSJBTU0tOneX0Ol91",
+                        "id": "7L6gLnSJBTU0tOneX0Ol91",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/ab67616d0000b2730464a4a2b1558725d9d97277",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/ab67616d00001e020464a4a2b1558725d9d97277",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/ab67616d000048510464a4a2b1558725d9d97277",
+                                "width": 64
+                            }
+                        ],
+                        "is_playable": true,
+                        "name": "CARAVANA",
+                        "release_date": "2019-10-04",
+                        "release_date_precision": "day",
+                        "total_tracks": 7,
+                        "type": "album",
+                        "uri": "spotify:album:7L6gLnSJBTU0tOneX0Ol91"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/5YCc6xS5Gpj3EkaYGdjyNK"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/5YCc6xS5Gpj3EkaYGdjyNK",
+                            "id": "5YCc6xS5Gpj3EkaYGdjyNK",
+                            "name": "WOS",
+                            "type": "artist",
+                            "uri": "spotify:artist:5YCc6xS5Gpj3EkaYGdjyNK"
+                        }
+                    ],
+                    "disc_number": 1,
+                    "duration_ms": 176394,
+                    "explicit": false,
+                    "external_ids": {
+                        "isrc": "QM7281938026"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/5uHAzGa4d9j35DEbhUwGhi"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/5uHAzGa4d9j35DEbhUwGhi",
+                    "id": "5uHAzGa4d9j35DEbhUwGhi",
+                    "is_local": false,
+                    "is_playable": true,
+                    "name": "MEL\u00d3N VINO",
+                    "popularity": 67,
+                    "preview_url": "https://p.scdn.co/mp3-preview/aa8a6928c954eed054fadc52eecd266c90c2a4c5?cid=ccbde3ac5eed42d9be7c79f147b19097",
+                    "track_number": 4,
+                    "type": "track",
+                    "uri": "spotify:track:5uHAzGa4d9j35DEbhUwGhi"
+                },
+                {
+                    "album": {
+                        "album_type": "album",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/5YCc6xS5Gpj3EkaYGdjyNK"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/5YCc6xS5Gpj3EkaYGdjyNK",
+                                "id": "5YCc6xS5Gpj3EkaYGdjyNK",
+                                "name": "WOS",
+                                "type": "artist",
+                                "uri": "spotify:artist:5YCc6xS5Gpj3EkaYGdjyNK"
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/0t9xw4VcPabCkwVO77u31Z"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/0t9xw4VcPabCkwVO77u31Z",
+                        "id": "0t9xw4VcPabCkwVO77u31Z",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/ab67616d0000b273c678828a5678109a13f20ba2",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/ab67616d00001e02c678828a5678109a13f20ba2",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/ab67616d00004851c678828a5678109a13f20ba2",
+                                "width": 64
+                            }
+                        ],
+                        "is_playable": true,
+                        "name": "DESCARTABLE",
+                        "release_date": "2024-03-21",
+                        "release_date_precision": "day",
+                        "total_tracks": 16,
+                        "type": "album",
+                        "uri": "spotify:album:0t9xw4VcPabCkwVO77u31Z"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/5YCc6xS5Gpj3EkaYGdjyNK"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/5YCc6xS5Gpj3EkaYGdjyNK",
+                            "id": "5YCc6xS5Gpj3EkaYGdjyNK",
+                            "name": "WOS",
+                            "type": "artist",
+                            "uri": "spotify:artist:5YCc6xS5Gpj3EkaYGdjyNK"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/0nUGkxUncFeXt0Dr0hhrc4"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/0nUGkxUncFeXt0Dr0hhrc4",
+                            "id": "0nUGkxUncFeXt0Dr0hhrc4",
+                            "name": "Indio Solari",
+                            "type": "artist",
+                            "uri": "spotify:artist:0nUGkxUncFeXt0Dr0hhrc4"
+                        }
+                    ],
+                    "disc_number": 1,
+                    "duration_ms": 263130,
+                    "explicit": false,
+                    "external_ids": {
+                        "isrc": "UYB282406003"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/37o3TuM0nRPMa9f9qpUKlo"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/37o3TuM0nRPMa9f9qpUKlo",
+                    "id": "37o3TuM0nRPMa9f9qpUKlo",
+                    "is_local": false,
+                    "is_playable": true,
+                    "name": "QUEMAR\u00c1S",
+                    "popularity": 64,
+                    "preview_url": "https://p.scdn.co/mp3-preview/d5598763d25a5564f9df21d60c2d1dc6ec2eff75?cid=ccbde3ac5eed42d9be7c79f147b19097",
+                    "track_number": 4,
+                    "type": "track",
+                    "uri": "spotify:track:37o3TuM0nRPMa9f9qpUKlo"
+                },
+                {
+                    "album": {
+                        "album_type": "album",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/5YCc6xS5Gpj3EkaYGdjyNK"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/5YCc6xS5Gpj3EkaYGdjyNK",
+                                "id": "5YCc6xS5Gpj3EkaYGdjyNK",
+                                "name": "WOS",
+                                "type": "artist",
+                                "uri": "spotify:artist:5YCc6xS5Gpj3EkaYGdjyNK"
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/7L6gLnSJBTU0tOneX0Ol91"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/7L6gLnSJBTU0tOneX0Ol91",
+                        "id": "7L6gLnSJBTU0tOneX0Ol91",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/ab67616d0000b2730464a4a2b1558725d9d97277",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/ab67616d00001e020464a4a2b1558725d9d97277",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/ab67616d000048510464a4a2b1558725d9d97277",
+                                "width": 64
+                            }
+                        ],
+                        "is_playable": true,
+                        "name": "CARAVANA",
+                        "release_date": "2019-10-04",
+                        "release_date_precision": "day",
+                        "total_tracks": 7,
+                        "type": "album",
+                        "uri": "spotify:album:7L6gLnSJBTU0tOneX0Ol91"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/5YCc6xS5Gpj3EkaYGdjyNK"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/5YCc6xS5Gpj3EkaYGdjyNK",
+                            "id": "5YCc6xS5Gpj3EkaYGdjyNK",
+                            "name": "WOS",
+                            "type": "artist",
+                            "uri": "spotify:artist:5YCc6xS5Gpj3EkaYGdjyNK"
+                        }
+                    ],
+                    "disc_number": 1,
+                    "duration_ms": 143000,
+                    "explicit": false,
+                    "external_ids": {
+                        "isrc": "QMBZ91913150"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/25NPeIjHjQGvyp4D52Tji2"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/25NPeIjHjQGvyp4D52Tji2",
+                    "id": "25NPeIjHjQGvyp4D52Tji2",
+                    "is_local": false,
+                    "is_playable": true,
+                    "name": "OKUPA",
+                    "popularity": 66,
+                    "preview_url": "https://p.scdn.co/mp3-preview/f320bb686e83fda58f0e3f36317a9982a9f79d5e?cid=ccbde3ac5eed42d9be7c79f147b19097",
+                    "track_number": 6,
+                    "type": "track",
+                    "uri": "spotify:track:25NPeIjHjQGvyp4D52Tji2"
+                },
+                {
+                    "album": {
+                        "album_type": "single",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/5YCc6xS5Gpj3EkaYGdjyNK"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/5YCc6xS5Gpj3EkaYGdjyNK",
+                                "id": "5YCc6xS5Gpj3EkaYGdjyNK",
+                                "name": "WOS",
+                                "type": "artist",
+                                "uri": "spotify:artist:5YCc6xS5Gpj3EkaYGdjyNK"
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/3uogbVO1vXh4OZ7FQpnmuJ"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/3uogbVO1vXh4OZ7FQpnmuJ",
+                        "id": "3uogbVO1vXh4OZ7FQpnmuJ",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/ab67616d0000b273e5da9e27a282f909ea8c6210",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/ab67616d00001e02e5da9e27a282f909ea8c6210",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/ab67616d00004851e5da9e27a282f909ea8c6210",
+                                "width": 64
+                            }
+                        ],
+                        "is_playable": true,
+                        "name": "TRES PUNTOS SUSPENSIVOS",
+                        "release_date": "2020-05-21",
+                        "release_date_precision": "day",
+                        "total_tracks": 4,
+                        "type": "album",
+                        "uri": "spotify:album:3uogbVO1vXh4OZ7FQpnmuJ"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/5YCc6xS5Gpj3EkaYGdjyNK"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/5YCc6xS5Gpj3EkaYGdjyNK",
+                            "id": "5YCc6xS5Gpj3EkaYGdjyNK",
+                            "name": "WOS",
+                            "type": "artist",
+                            "uri": "spotify:artist:5YCc6xS5Gpj3EkaYGdjyNK"
+                        }
+                    ],
+                    "disc_number": 1,
+                    "duration_ms": 173913,
+                    "explicit": false,
+                    "external_ids": {
+                        "isrc": "AREZU2000002"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/2ONADYjJvqYVwjWavuY0H1"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/2ONADYjJvqYVwjWavuY0H1",
+                    "id": "2ONADYjJvqYVwjWavuY0H1",
+                    "is_local": false,
+                    "is_playable": true,
+                    "name": "ALMA DINAMITA",
+                    "popularity": 66,
+                    "preview_url": "https://p.scdn.co/mp3-preview/28d15210e3903cb4fcfc4886ee9e2a310550814f?cid=ccbde3ac5eed42d9be7c79f147b19097",
+                    "track_number": 2,
+                    "type": "track",
+                    "uri": "spotify:track:2ONADYjJvqYVwjWavuY0H1"
+                },
+                {
+                    "album": {
+                        "album_type": "album",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/5YCc6xS5Gpj3EkaYGdjyNK"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/5YCc6xS5Gpj3EkaYGdjyNK",
+                                "id": "5YCc6xS5Gpj3EkaYGdjyNK",
+                                "name": "WOS",
+                                "type": "artist",
+                                "uri": "spotify:artist:5YCc6xS5Gpj3EkaYGdjyNK"
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/0t9xw4VcPabCkwVO77u31Z"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/0t9xw4VcPabCkwVO77u31Z",
+                        "id": "0t9xw4VcPabCkwVO77u31Z",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/ab67616d0000b273c678828a5678109a13f20ba2",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/ab67616d00001e02c678828a5678109a13f20ba2",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/ab67616d00004851c678828a5678109a13f20ba2",
+                                "width": 64
+                            }
+                        ],
+                        "is_playable": true,
+                        "name": "DESCARTABLE",
+                        "release_date": "2024-03-21",
+                        "release_date_precision": "day",
+                        "total_tracks": 16,
+                        "type": "album",
+                        "uri": "spotify:album:0t9xw4VcPabCkwVO77u31Z"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/5YCc6xS5Gpj3EkaYGdjyNK"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/5YCc6xS5Gpj3EkaYGdjyNK",
+                            "id": "5YCc6xS5Gpj3EkaYGdjyNK",
+                            "name": "WOS",
+                            "type": "artist",
+                            "uri": "spotify:artist:5YCc6xS5Gpj3EkaYGdjyNK"
+                        }
+                    ],
+                    "disc_number": 1,
+                    "duration_ms": 233046,
+                    "explicit": false,
+                    "external_ids": {
+                        "isrc": "UYB282306013"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/297Ev6aeDHc8dECDmK7SFH"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/297Ev6aeDHc8dECDmK7SFH",
+                    "id": "297Ev6aeDHc8dECDmK7SFH",
+                    "is_local": false,
+                    "is_playable": true,
+                    "name": "MORFEO",
+                    "popularity": 61,
+                    "preview_url": "https://p.scdn.co/mp3-preview/8b44f84860a0b0523c6a1c2ac14626327a4c9125?cid=ccbde3ac5eed42d9be7c79f147b19097",
+                    "track_number": 6,
+                    "type": "track",
+                    "uri": "spotify:track:297Ev6aeDHc8dECDmK7SFH"
+                },
+                {
+                    "album": {
+                        "album_type": "album",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/5YCc6xS5Gpj3EkaYGdjyNK"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/5YCc6xS5Gpj3EkaYGdjyNK",
+                                "id": "5YCc6xS5Gpj3EkaYGdjyNK",
+                                "name": "WOS",
+                                "type": "artist",
+                                "uri": "spotify:artist:5YCc6xS5Gpj3EkaYGdjyNK"
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/7L6gLnSJBTU0tOneX0Ol91"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/7L6gLnSJBTU0tOneX0Ol91",
+                        "id": "7L6gLnSJBTU0tOneX0Ol91",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/ab67616d0000b2730464a4a2b1558725d9d97277",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/ab67616d00001e020464a4a2b1558725d9d97277",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/ab67616d000048510464a4a2b1558725d9d97277",
+                                "width": 64
+                            }
+                        ],
+                        "is_playable": true,
+                        "name": "CARAVANA",
+                        "release_date": "2019-10-04",
+                        "release_date_precision": "day",
+                        "total_tracks": 7,
+                        "type": "album",
+                        "uri": "spotify:album:7L6gLnSJBTU0tOneX0Ol91"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/5YCc6xS5Gpj3EkaYGdjyNK"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/5YCc6xS5Gpj3EkaYGdjyNK",
+                            "id": "5YCc6xS5Gpj3EkaYGdjyNK",
+                            "name": "WOS",
+                            "type": "artist",
+                            "uri": "spotify:artist:5YCc6xS5Gpj3EkaYGdjyNK"
+                        }
+                    ],
+                    "disc_number": 1,
+                    "duration_ms": 196745,
+                    "explicit": true,
+                    "external_ids": {
+                        "isrc": "QM6P41996460"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/2UAWYufVaO3EnUUNzl0ppO"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/2UAWYufVaO3EnUUNzl0ppO",
+                    "id": "2UAWYufVaO3EnUUNzl0ppO",
+                    "is_local": false,
+                    "is_playable": true,
+                    "name": "CANGURO",
+                    "popularity": 62,
+                    "preview_url": "https://p.scdn.co/mp3-preview/0dbacb0bfcd1d51433bef1abea233822885d5a8e?cid=ccbde3ac5eed42d9be7c79f147b19097",
+                    "track_number": 1,
+                    "type": "track",
+                    "uri": "spotify:track:2UAWYufVaO3EnUUNzl0ppO"
+                },
+                {
+                    "album": {
+                        "album_type": "single",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/5YCc6xS5Gpj3EkaYGdjyNK"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/5YCc6xS5Gpj3EkaYGdjyNK",
+                                "id": "5YCc6xS5Gpj3EkaYGdjyNK",
+                                "name": "WOS",
+                                "type": "artist",
+                                "uri": "spotify:artist:5YCc6xS5Gpj3EkaYGdjyNK"
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/5hP0Os6zCLLnf5ADAeIVs7"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/5hP0Os6zCLLnf5ADAeIVs7",
+                        "id": "5hP0Os6zCLLnf5ADAeIVs7",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/ab67616d0000b273bce4987b67938a0a00cdd853",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/ab67616d00001e02bce4987b67938a0a00cdd853",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/ab67616d00004851bce4987b67938a0a00cdd853",
+                                "width": 64
+                            }
+                        ],
+                        "is_playable": true,
+                        "name": "ANDR\u00d3MEDA",
+                        "release_date": "2018-10-04",
+                        "release_date_precision": "day",
+                        "total_tracks": 1,
+                        "type": "album",
+                        "uri": "spotify:album:5hP0Os6zCLLnf5ADAeIVs7"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/5YCc6xS5Gpj3EkaYGdjyNK"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/5YCc6xS5Gpj3EkaYGdjyNK",
+                            "id": "5YCc6xS5Gpj3EkaYGdjyNK",
+                            "name": "WOS",
+                            "type": "artist",
+                            "uri": "spotify:artist:5YCc6xS5Gpj3EkaYGdjyNK"
+                        }
+                    ],
+                    "disc_number": 1,
+                    "duration_ms": 171475,
+                    "explicit": false,
+                    "external_ids": {
+                        "isrc": "QZ22B2008609"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/3hNKWD8kkxOEJ7K90PjWri"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/3hNKWD8kkxOEJ7K90PjWri",
+                    "id": "3hNKWD8kkxOEJ7K90PjWri",
+                    "is_local": false,
+                    "is_playable": true,
+                    "name": "ANDR\u00d3MEDA",
+                    "popularity": 64,
+                    "preview_url": "https://p.scdn.co/mp3-preview/9c868bf9d2249609fdf6345c2da3b1be9ce36b93?cid=ccbde3ac5eed42d9be7c79f147b19097",
+                    "track_number": 1,
+                    "type": "track",
+                    "uri": "spotify:track:3hNKWD8kkxOEJ7K90PjWri"
+                },
+                {
+                    "album": {
+                        "album_type": "single",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/5l4GdLELvdnXZVT5g947i3"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/5l4GdLELvdnXZVT5g947i3",
+                                "id": "5l4GdLELvdnXZVT5g947i3",
+                                "name": "LOUTA",
+                                "type": "artist",
+                                "uri": "spotify:artist:5l4GdLELvdnXZVT5g947i3"
+                            },
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/5YCc6xS5Gpj3EkaYGdjyNK"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/5YCc6xS5Gpj3EkaYGdjyNK",
+                                "id": "5YCc6xS5Gpj3EkaYGdjyNK",
+                                "name": "WOS",
+                                "type": "artist",
+                                "uri": "spotify:artist:5YCc6xS5Gpj3EkaYGdjyNK"
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/5Z6Tv47n8WpXgNf8ZZLNw7"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/5Z6Tv47n8WpXgNf8ZZLNw7",
+                        "id": "5Z6Tv47n8WpXgNf8ZZLNw7",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/ab67616d0000b2739da1c1ab9d2f8eb48de56570",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/ab67616d00001e029da1c1ab9d2f8eb48de56570",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/ab67616d000048519da1c1ab9d2f8eb48de56570",
+                                "width": 64
+                            }
+                        ],
+                        "is_playable": true,
+                        "name": "QUEREME",
+                        "release_date": "2022-06-16",
+                        "release_date_precision": "day",
+                        "total_tracks": 1,
+                        "type": "album",
+                        "uri": "spotify:album:5Z6Tv47n8WpXgNf8ZZLNw7"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/5l4GdLELvdnXZVT5g947i3"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/5l4GdLELvdnXZVT5g947i3",
+                            "id": "5l4GdLELvdnXZVT5g947i3",
+                            "name": "LOUTA",
+                            "type": "artist",
+                            "uri": "spotify:artist:5l4GdLELvdnXZVT5g947i3"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/5YCc6xS5Gpj3EkaYGdjyNK"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/5YCc6xS5Gpj3EkaYGdjyNK",
+                            "id": "5YCc6xS5Gpj3EkaYGdjyNK",
+                            "name": "WOS",
+                            "type": "artist",
+                            "uri": "spotify:artist:5YCc6xS5Gpj3EkaYGdjyNK"
+                        }
+                    ],
+                    "disc_number": 1,
+                    "duration_ms": 194840,
+                    "explicit": false,
+                    "external_ids": {
+                        "isrc": "ARF102200177"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/0bhWW1Bve1Ng6kEm8WjiQA"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/0bhWW1Bve1Ng6kEm8WjiQA",
+                    "id": "0bhWW1Bve1Ng6kEm8WjiQA",
+                    "is_local": false,
+                    "is_playable": true,
+                    "name": "QUEREME",
+                    "popularity": 63,
+                    "preview_url": "https://p.scdn.co/mp3-preview/13755e447a64ab6059de6d2660115ebe68b657f5?cid=ccbde3ac5eed42d9be7c79f147b19097",
+                    "track_number": 1,
+                    "type": "track",
+                    "uri": "spotify:track:0bhWW1Bve1Ng6kEm8WjiQA"
+                },
+                {
+                    "album": {
+                        "album_type": "album",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/5YCc6xS5Gpj3EkaYGdjyNK"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/5YCc6xS5Gpj3EkaYGdjyNK",
+                                "id": "5YCc6xS5Gpj3EkaYGdjyNK",
+                                "name": "WOS",
+                                "type": "artist",
+                                "uri": "spotify:artist:5YCc6xS5Gpj3EkaYGdjyNK"
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/0fYhjxeRFdXp6s8R9hUXKt"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/0fYhjxeRFdXp6s8R9hUXKt",
+                        "id": "0fYhjxeRFdXp6s8R9hUXKt",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/ab67616d0000b273cdb97c1de867f1b7ae0dc443",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/ab67616d00001e02cdb97c1de867f1b7ae0dc443",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/ab67616d00004851cdb97c1de867f1b7ae0dc443",
+                                "width": 64
+                            }
+                        ],
+                        "is_playable": true,
+                        "name": "OSCURO \u00c9XTASIS",
+                        "release_date": "2021-11-18",
+                        "release_date_precision": "day",
+                        "total_tracks": 13,
+                        "type": "album",
+                        "uri": "spotify:album:0fYhjxeRFdXp6s8R9hUXKt"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/5YCc6xS5Gpj3EkaYGdjyNK"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/5YCc6xS5Gpj3EkaYGdjyNK",
+                            "id": "5YCc6xS5Gpj3EkaYGdjyNK",
+                            "name": "WOS",
+                            "type": "artist",
+                            "uri": "spotify:artist:5YCc6xS5Gpj3EkaYGdjyNK"
+                        }
+                    ],
+                    "disc_number": 1,
+                    "duration_ms": 203468,
+                    "explicit": false,
+                    "external_ids": {
+                        "isrc": "UYB282106040"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/47DL8jY6HJD2mlCcTuOWKX"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/47DL8jY6HJD2mlCcTuOWKX",
+                    "id": "47DL8jY6HJD2mlCcTuOWKX",
+                    "is_local": false,
+                    "is_playable": true,
+                    "name": "CONTANDO OVEJAS",
+                    "popularity": 63,
+                    "preview_url": "https://p.scdn.co/mp3-preview/53646a79eaa3ba242a14254f718768bdd861eb11?cid=ccbde3ac5eed42d9be7c79f147b19097",
+                    "track_number": 10,
+                    "type": "track",
+                    "uri": "spotify:track:47DL8jY6HJD2mlCcTuOWKX"
+                }
+            ]
+        },
+        {
+            "tracks": [
+                {
+                    "album": {
+                        "album_type": "album",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/2x7PC78TmgqpEIjaGAZ0Oz"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/2x7PC78TmgqpEIjaGAZ0Oz",
+                                "id": "2x7PC78TmgqpEIjaGAZ0Oz",
+                                "name": "Trueno",
+                                "type": "artist",
+                                "uri": "spotify:artist:2x7PC78TmgqpEIjaGAZ0Oz"
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/1xBoZOfcOsqd77V6AENKYC"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/1xBoZOfcOsqd77V6AENKYC",
+                        "id": "1xBoZOfcOsqd77V6AENKYC",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/ab67616d0000b273f4483d4440a89a2cab3b5141",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/ab67616d00001e02f4483d4440a89a2cab3b5141",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/ab67616d00004851f4483d4440a89a2cab3b5141",
+                                "width": 64
+                            }
+                        ],
+                        "is_playable": true,
+                        "name": "Atrevido",
+                        "release_date": "2020-07-23",
+                        "release_date_precision": "day",
+                        "total_tracks": 10,
+                        "type": "album",
+                        "uri": "spotify:album:1xBoZOfcOsqd77V6AENKYC"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2x7PC78TmgqpEIjaGAZ0Oz"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/2x7PC78TmgqpEIjaGAZ0Oz",
+                            "id": "2x7PC78TmgqpEIjaGAZ0Oz",
+                            "name": "Trueno",
+                            "type": "artist",
+                            "uri": "spotify:artist:2x7PC78TmgqpEIjaGAZ0Oz"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2UZIAOlrnyZmyzt1nuXr9y"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/2UZIAOlrnyZmyzt1nuXr9y",
+                            "id": "2UZIAOlrnyZmyzt1nuXr9y",
+                            "name": "Nicki Nicole",
+                            "type": "artist",
+                            "uri": "spotify:artist:2UZIAOlrnyZmyzt1nuXr9y"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/716NhGYqD1jl2wI1Qkgq36"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/716NhGYqD1jl2wI1Qkgq36",
+                            "id": "716NhGYqD1jl2wI1Qkgq36",
+                            "name": "Bizarrap",
+                            "type": "artist",
+                            "uri": "spotify:artist:716NhGYqD1jl2wI1Qkgq36"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/5szJHKg5xeUlQ9pTqzdpic"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/5szJHKg5xeUlQ9pTqzdpic",
+                            "id": "5szJHKg5xeUlQ9pTqzdpic",
+                            "name": "Taiu",
+                            "type": "artist",
+                            "uri": "spotify:artist:5szJHKg5xeUlQ9pTqzdpic"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/0shHIQr8VamXbzM66kwGQo"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/0shHIQr8VamXbzM66kwGQo",
+                            "id": "0shHIQr8VamXbzM66kwGQo",
+                            "name": "TATOOL",
+                            "type": "artist",
+                            "uri": "spotify:artist:0shHIQr8VamXbzM66kwGQo"
+                        }
+                    ],
+                    "disc_number": 1,
+                    "duration_ms": 219201,
+                    "explicit": false,
+                    "external_ids": {
+                        "isrc": "ARRWN2000010"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/0TUW9faHNaBmi89wsYGp9y"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/0TUW9faHNaBmi89wsYGp9y",
+                    "id": "0TUW9faHNaBmi89wsYGp9y",
+                    "is_local": false,
+                    "is_playable": true,
+                    "name": "Mamichula - con Nicki Nicole",
+                    "popularity": 81,
+                    "preview_url": "https://p.scdn.co/mp3-preview/ccd8e8036aad50ed307d43ab5c193536938a98d4?cid=ccbde3ac5eed42d9be7c79f147b19097",
+                    "track_number": 10,
+                    "type": "track",
+                    "uri": "spotify:track:0TUW9faHNaBmi89wsYGp9y"
+                },
+                {
+                    "album": {
+                        "album_type": "album",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/2x7PC78TmgqpEIjaGAZ0Oz"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/2x7PC78TmgqpEIjaGAZ0Oz",
+                                "id": "2x7PC78TmgqpEIjaGAZ0Oz",
+                                "name": "Trueno",
+                                "type": "artist",
+                                "uri": "spotify:artist:2x7PC78TmgqpEIjaGAZ0Oz"
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/3EWJoKrG9XnCjvAPzkQZ88"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/3EWJoKrG9XnCjvAPzkQZ88",
+                        "id": "3EWJoKrG9XnCjvAPzkQZ88",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/ab67616d0000b27368a450f7bcdc187e20f0ba0a",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/ab67616d00001e0268a450f7bcdc187e20f0ba0a",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/ab67616d0000485168a450f7bcdc187e20f0ba0a",
+                                "width": 64
+                            }
+                        ],
+                        "is_playable": true,
+                        "name": "EL \u00daLTIMO BAILE",
+                        "release_date": "2024-05-23",
+                        "release_date_precision": "day",
+                        "total_tracks": 13,
+                        "type": "album",
+                        "uri": "spotify:album:3EWJoKrG9XnCjvAPzkQZ88"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2x7PC78TmgqpEIjaGAZ0Oz"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/2x7PC78TmgqpEIjaGAZ0Oz",
+                            "id": "2x7PC78TmgqpEIjaGAZ0Oz",
+                            "name": "Trueno",
+                            "type": "artist",
+                            "uri": "spotify:artist:2x7PC78TmgqpEIjaGAZ0Oz"
+                        }
+                    ],
+                    "disc_number": 1,
+                    "duration_ms": 157319,
+                    "explicit": true,
+                    "external_ids": {
+                        "isrc": "ARH7D2300045"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/5XOz9c4Enw0fzyIFZRHds8"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/5XOz9c4Enw0fzyIFZRHds8",
+                    "id": "5XOz9c4Enw0fzyIFZRHds8",
+                    "is_local": false,
+                    "is_playable": true,
+                    "name": "TRANKY FUNKY",
+                    "popularity": 68,
+                    "preview_url": "https://p.scdn.co/mp3-preview/143fe8a8c42c274a3eee7623aba12fe240e9c6fb?cid=ccbde3ac5eed42d9be7c79f147b19097",
+                    "track_number": 3,
+                    "type": "track",
+                    "uri": "spotify:track:5XOz9c4Enw0fzyIFZRHds8"
+                },
+                {
+                    "album": {
+                        "album_type": "album",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/2x7PC78TmgqpEIjaGAZ0Oz"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/2x7PC78TmgqpEIjaGAZ0Oz",
+                                "id": "2x7PC78TmgqpEIjaGAZ0Oz",
+                                "name": "Trueno",
+                                "type": "artist",
+                                "uri": "spotify:artist:2x7PC78TmgqpEIjaGAZ0Oz"
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/1HeNYlqvbUDkP97DJ33Kjl"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/1HeNYlqvbUDkP97DJ33Kjl",
+                        "id": "1HeNYlqvbUDkP97DJ33Kjl",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/ab67616d0000b2732ccbe28be97225ae844bef55",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/ab67616d00001e022ccbe28be97225ae844bef55",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/ab67616d000048512ccbe28be97225ae844bef55",
+                                "width": 64
+                            }
+                        ],
+                        "is_playable": true,
+                        "name": "BIEN O MAL",
+                        "release_date": "2022-05-12",
+                        "release_date_precision": "day",
+                        "total_tracks": 15,
+                        "type": "album",
+                        "uri": "spotify:album:1HeNYlqvbUDkP97DJ33Kjl"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2x7PC78TmgqpEIjaGAZ0Oz"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/2x7PC78TmgqpEIjaGAZ0Oz",
+                            "id": "2x7PC78TmgqpEIjaGAZ0Oz",
+                            "name": "Trueno",
+                            "type": "artist",
+                            "uri": "spotify:artist:2x7PC78TmgqpEIjaGAZ0Oz"
+                        }
+                    ],
+                    "disc_number": 3,
+                    "duration_ms": 187331,
+                    "explicit": true,
+                    "external_ids": {
+                        "isrc": "ARH7D2200012"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/3qukYaYSxIUBcq5UIUIsPf"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/3qukYaYSxIUBcq5UIUIsPf",
+                    "id": "3qukYaYSxIUBcq5UIUIsPf",
+                    "is_local": false,
+                    "is_playable": true,
+                    "name": "FEEL ME??",
+                    "popularity": 71,
+                    "preview_url": "https://p.scdn.co/mp3-preview/3d1eea045293125326ba2eba51eba99856120bb9?cid=ccbde3ac5eed42d9be7c79f147b19097",
+                    "track_number": 5,
+                    "type": "track",
+                    "uri": "spotify:track:3qukYaYSxIUBcq5UIUIsPf"
+                },
+                {
+                    "album": {
+                        "album_type": "album",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/2x7PC78TmgqpEIjaGAZ0Oz"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/2x7PC78TmgqpEIjaGAZ0Oz",
+                                "id": "2x7PC78TmgqpEIjaGAZ0Oz",
+                                "name": "Trueno",
+                                "type": "artist",
+                                "uri": "spotify:artist:2x7PC78TmgqpEIjaGAZ0Oz"
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/1HeNYlqvbUDkP97DJ33Kjl"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/1HeNYlqvbUDkP97DJ33Kjl",
+                        "id": "1HeNYlqvbUDkP97DJ33Kjl",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/ab67616d0000b2732ccbe28be97225ae844bef55",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/ab67616d00001e022ccbe28be97225ae844bef55",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/ab67616d000048512ccbe28be97225ae844bef55",
+                                "width": 64
+                            }
+                        ],
+                        "is_playable": true,
+                        "name": "BIEN O MAL",
+                        "release_date": "2022-05-12",
+                        "release_date_precision": "day",
+                        "total_tracks": 15,
+                        "type": "album",
+                        "uri": "spotify:album:1HeNYlqvbUDkP97DJ33Kjl"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2x7PC78TmgqpEIjaGAZ0Oz"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/2x7PC78TmgqpEIjaGAZ0Oz",
+                            "id": "2x7PC78TmgqpEIjaGAZ0Oz",
+                            "name": "Trueno",
+                            "type": "artist",
+                            "uri": "spotify:artist:2x7PC78TmgqpEIjaGAZ0Oz"
+                        }
+                    ],
+                    "disc_number": 3,
+                    "duration_ms": 165019,
+                    "explicit": true,
+                    "external_ids": {
+                        "isrc": "ARH7D2200008"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/5NtIprYDaflAuu3Pko0rjR"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/5NtIprYDaflAuu3Pko0rjR",
+                    "id": "5NtIprYDaflAuu3Pko0rjR",
+                    "is_local": false,
+                    "is_playable": true,
+                    "name": "DANCE CRIP",
+                    "popularity": 70,
+                    "preview_url": "https://p.scdn.co/mp3-preview/7340a6a3a997bdc99b0e91d2d11f48d79e76fd42?cid=ccbde3ac5eed42d9be7c79f147b19097",
+                    "track_number": 1,
+                    "type": "track",
+                    "uri": "spotify:track:5NtIprYDaflAuu3Pko0rjR"
+                },
+                {
+                    "album": {
+                        "album_type": "album",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/2x7PC78TmgqpEIjaGAZ0Oz"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/2x7PC78TmgqpEIjaGAZ0Oz",
+                                "id": "2x7PC78TmgqpEIjaGAZ0Oz",
+                                "name": "Trueno",
+                                "type": "artist",
+                                "uri": "spotify:artist:2x7PC78TmgqpEIjaGAZ0Oz"
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/3EWJoKrG9XnCjvAPzkQZ88"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/3EWJoKrG9XnCjvAPzkQZ88",
+                        "id": "3EWJoKrG9XnCjvAPzkQZ88",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/ab67616d0000b27368a450f7bcdc187e20f0ba0a",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/ab67616d00001e0268a450f7bcdc187e20f0ba0a",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/ab67616d0000485168a450f7bcdc187e20f0ba0a",
+                                "width": 64
+                            }
+                        ],
+                        "is_playable": true,
+                        "name": "EL \u00daLTIMO BAILE",
+                        "release_date": "2024-05-23",
+                        "release_date_precision": "day",
+                        "total_tracks": 13,
+                        "type": "album",
+                        "uri": "spotify:album:3EWJoKrG9XnCjvAPzkQZ88"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2x7PC78TmgqpEIjaGAZ0Oz"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/2x7PC78TmgqpEIjaGAZ0Oz",
+                            "id": "2x7PC78TmgqpEIjaGAZ0Oz",
+                            "name": "Trueno",
+                            "type": "artist",
+                            "uri": "spotify:artist:2x7PC78TmgqpEIjaGAZ0Oz"
+                        }
+                    ],
+                    "disc_number": 1,
+                    "duration_ms": 111160,
+                    "explicit": true,
+                    "external_ids": {
+                        "isrc": "US66W2401063"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/62Ff1Mw5sbCx017EJOsn3Q"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/62Ff1Mw5sbCx017EJOsn3Q",
+                    "id": "62Ff1Mw5sbCx017EJOsn3Q",
+                    "is_local": false,
+                    "is_playable": true,
+                    "name": "THE ROOF IS ON FIRE",
+                    "popularity": 67,
+                    "preview_url": "https://p.scdn.co/mp3-preview/28cf35815a8f59df361e067b9f0b4830b86e09ef?cid=ccbde3ac5eed42d9be7c79f147b19097",
+                    "track_number": 5,
+                    "type": "track",
+                    "uri": "spotify:track:62Ff1Mw5sbCx017EJOsn3Q"
+                },
+                {
+                    "album": {
+                        "album_type": "album",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/2x7PC78TmgqpEIjaGAZ0Oz"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/2x7PC78TmgqpEIjaGAZ0Oz",
+                                "id": "2x7PC78TmgqpEIjaGAZ0Oz",
+                                "name": "Trueno",
+                                "type": "artist",
+                                "uri": "spotify:artist:2x7PC78TmgqpEIjaGAZ0Oz"
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/1HeNYlqvbUDkP97DJ33Kjl"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/1HeNYlqvbUDkP97DJ33Kjl",
+                        "id": "1HeNYlqvbUDkP97DJ33Kjl",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/ab67616d0000b2732ccbe28be97225ae844bef55",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/ab67616d00001e022ccbe28be97225ae844bef55",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/ab67616d000048512ccbe28be97225ae844bef55",
+                                "width": 64
+                            }
+                        ],
+                        "is_playable": true,
+                        "name": "BIEN O MAL",
+                        "release_date": "2022-05-12",
+                        "release_date_precision": "day",
+                        "total_tracks": 15,
+                        "type": "album",
+                        "uri": "spotify:album:1HeNYlqvbUDkP97DJ33Kjl"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2x7PC78TmgqpEIjaGAZ0Oz"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/2x7PC78TmgqpEIjaGAZ0Oz",
+                            "id": "2x7PC78TmgqpEIjaGAZ0Oz",
+                            "name": "Trueno",
+                            "type": "artist",
+                            "uri": "spotify:artist:2x7PC78TmgqpEIjaGAZ0Oz"
+                        }
+                    ],
+                    "disc_number": 3,
+                    "duration_ms": 199825,
+                    "explicit": false,
+                    "external_ids": {
+                        "isrc": "ARH7D2200009"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/0qhynIDQPUYENhtIQ3TUyE"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/0qhynIDQPUYENhtIQ3TUyE",
+                    "id": "0qhynIDQPUYENhtIQ3TUyE",
+                    "is_local": false,
+                    "is_playable": true,
+                    "name": "SOLO POR VOS",
+                    "popularity": 71,
+                    "preview_url": "https://p.scdn.co/mp3-preview/aa272eba1ea717ff2f74f2277b3e2961a8b6def9?cid=ccbde3ac5eed42d9be7c79f147b19097",
+                    "track_number": 2,
+                    "type": "track",
+                    "uri": "spotify:track:0qhynIDQPUYENhtIQ3TUyE"
+                },
+                {
+                    "album": {
+                        "album_type": "album",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/2oQX8QiMXOyuqbcZEFsZfm"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/2oQX8QiMXOyuqbcZEFsZfm",
+                                "id": "2oQX8QiMXOyuqbcZEFsZfm",
+                                "name": "El Alfa",
+                                "type": "artist",
+                                "uri": "spotify:artist:2oQX8QiMXOyuqbcZEFsZfm"
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/4GlriazgsYPXES2XYkb4gb"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/4GlriazgsYPXES2XYkb4gb",
+                        "id": "4GlriazgsYPXES2XYkb4gb",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/ab67616d0000b2733242fdd0d5f5c1dfe49ce924",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/ab67616d00001e023242fdd0d5f5c1dfe49ce924",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/ab67616d000048513242fdd0d5f5c1dfe49ce924",
+                                "width": 64
+                            }
+                        ],
+                        "is_playable": true,
+                        "name": "SAGITARIO",
+                        "release_date": "2022-11-22",
+                        "release_date_precision": "day",
+                        "total_tracks": 18,
+                        "type": "album",
+                        "uri": "spotify:album:4GlriazgsYPXES2XYkb4gb"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2oQX8QiMXOyuqbcZEFsZfm"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/2oQX8QiMXOyuqbcZEFsZfm",
+                            "id": "2oQX8QiMXOyuqbcZEFsZfm",
+                            "name": "El Alfa",
+                            "type": "artist",
+                            "uri": "spotify:artist:2oQX8QiMXOyuqbcZEFsZfm"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/3RtNN1VnooWEn3KQk03DUL"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/3RtNN1VnooWEn3KQk03DUL",
+                            "id": "3RtNN1VnooWEn3KQk03DUL",
+                            "name": "Noriel",
+                            "type": "artist",
+                            "uri": "spotify:artist:3RtNN1VnooWEn3KQk03DUL"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2x7PC78TmgqpEIjaGAZ0Oz"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/2x7PC78TmgqpEIjaGAZ0Oz",
+                            "id": "2x7PC78TmgqpEIjaGAZ0Oz",
+                            "name": "Trueno",
+                            "type": "artist",
+                            "uri": "spotify:artist:2x7PC78TmgqpEIjaGAZ0Oz"
+                        }
+                    ],
+                    "disc_number": 1,
+                    "duration_ms": 232843,
+                    "explicit": false,
+                    "external_ids": {
+                        "isrc": "QM6P42213591"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/4b6KA8SAIvDy9wT12Emzfc"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/4b6KA8SAIvDy9wT12Emzfc",
+                    "id": "4b6KA8SAIvDy9wT12Emzfc",
+                    "is_local": false,
+                    "is_playable": true,
+                    "name": "Los Aparatos",
+                    "popularity": 70,
+                    "preview_url": "https://p.scdn.co/mp3-preview/7988ffb06906f6f9bb3ca8817424e0fb0fdeb117?cid=ccbde3ac5eed42d9be7c79f147b19097",
+                    "track_number": 14,
+                    "type": "track",
+                    "uri": "spotify:track:4b6KA8SAIvDy9wT12Emzfc"
+                },
+                {
+                    "album": {
+                        "album_type": "album",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/2x7PC78TmgqpEIjaGAZ0Oz"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/2x7PC78TmgqpEIjaGAZ0Oz",
+                                "id": "2x7PC78TmgqpEIjaGAZ0Oz",
+                                "name": "Trueno",
+                                "type": "artist",
+                                "uri": "spotify:artist:2x7PC78TmgqpEIjaGAZ0Oz"
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/3EWJoKrG9XnCjvAPzkQZ88"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/3EWJoKrG9XnCjvAPzkQZ88",
+                        "id": "3EWJoKrG9XnCjvAPzkQZ88",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/ab67616d0000b27368a450f7bcdc187e20f0ba0a",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/ab67616d00001e0268a450f7bcdc187e20f0ba0a",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/ab67616d0000485168a450f7bcdc187e20f0ba0a",
+                                "width": 64
+                            }
+                        ],
+                        "is_playable": true,
+                        "name": "EL \u00daLTIMO BAILE",
+                        "release_date": "2024-05-23",
+                        "release_date_precision": "day",
+                        "total_tracks": 13,
+                        "type": "album",
+                        "uri": "spotify:album:3EWJoKrG9XnCjvAPzkQZ88"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2x7PC78TmgqpEIjaGAZ0Oz"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/2x7PC78TmgqpEIjaGAZ0Oz",
+                            "id": "2x7PC78TmgqpEIjaGAZ0Oz",
+                            "name": "Trueno",
+                            "type": "artist",
+                            "uri": "spotify:artist:2x7PC78TmgqpEIjaGAZ0Oz"
+                        }
+                    ],
+                    "disc_number": 1,
+                    "duration_ms": 145342,
+                    "explicit": true,
+                    "external_ids": {
+                        "isrc": "US66W2401066"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/1pymWRCuZfCd0zdiBJo0Hj"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/1pymWRCuZfCd0zdiBJo0Hj",
+                    "id": "1pymWRCuZfCd0zdiBJo0Hj",
+                    "is_local": false,
+                    "is_playable": true,
+                    "name": "REAL GANGSTA LOVE",
+                    "popularity": 71,
+                    "preview_url": "https://p.scdn.co/mp3-preview/2f10aa6bf08d7c4b1a7737c3accb9b738f885c73?cid=ccbde3ac5eed42d9be7c79f147b19097",
+                    "track_number": 8,
+                    "type": "track",
+                    "uri": "spotify:track:1pymWRCuZfCd0zdiBJo0Hj"
+                },
+                {
+                    "album": {
+                        "album_type": "album",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/2x7PC78TmgqpEIjaGAZ0Oz"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/2x7PC78TmgqpEIjaGAZ0Oz",
+                                "id": "2x7PC78TmgqpEIjaGAZ0Oz",
+                                "name": "Trueno",
+                                "type": "artist",
+                                "uri": "spotify:artist:2x7PC78TmgqpEIjaGAZ0Oz"
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/3EWJoKrG9XnCjvAPzkQZ88"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/3EWJoKrG9XnCjvAPzkQZ88",
+                        "id": "3EWJoKrG9XnCjvAPzkQZ88",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/ab67616d0000b27368a450f7bcdc187e20f0ba0a",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/ab67616d00001e0268a450f7bcdc187e20f0ba0a",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/ab67616d0000485168a450f7bcdc187e20f0ba0a",
+                                "width": 64
+                            }
+                        ],
+                        "is_playable": true,
+                        "name": "EL \u00daLTIMO BAILE",
+                        "release_date": "2024-05-23",
+                        "release_date_precision": "day",
+                        "total_tracks": 13,
+                        "type": "album",
+                        "uri": "spotify:album:3EWJoKrG9XnCjvAPzkQZ88"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2x7PC78TmgqpEIjaGAZ0Oz"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/2x7PC78TmgqpEIjaGAZ0Oz",
+                            "id": "2x7PC78TmgqpEIjaGAZ0Oz",
+                            "name": "Trueno",
+                            "type": "artist",
+                            "uri": "spotify:artist:2x7PC78TmgqpEIjaGAZ0Oz"
+                        }
+                    ],
+                    "disc_number": 1,
+                    "duration_ms": 147795,
+                    "explicit": true,
+                    "external_ids": {
+                        "isrc": "ARH7D2300047"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/11pjpFy9m7CQqVBC0A5EPG"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/11pjpFy9m7CQqVBC0A5EPG",
+                    "id": "11pjpFy9m7CQqVBC0A5EPG",
+                    "is_local": false,
+                    "is_playable": true,
+                    "name": "OHH BABY",
+                    "popularity": 66,
+                    "preview_url": "https://p.scdn.co/mp3-preview/fef170b9400897a079e6b37d9698a4d64ffb60d7?cid=ccbde3ac5eed42d9be7c79f147b19097",
+                    "track_number": 10,
+                    "type": "track",
+                    "uri": "spotify:track:11pjpFy9m7CQqVBC0A5EPG"
+                },
+                {
+                    "album": {
+                        "album_type": "single",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/2x7PC78TmgqpEIjaGAZ0Oz"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/2x7PC78TmgqpEIjaGAZ0Oz",
+                                "id": "2x7PC78TmgqpEIjaGAZ0Oz",
+                                "name": "Trueno",
+                                "type": "artist",
+                                "uri": "spotify:artist:2x7PC78TmgqpEIjaGAZ0Oz"
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/0n54S0AXVz8kQkYL06hQiN"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/0n54S0AXVz8kQkYL06hQiN",
+                        "id": "0n54S0AXVz8kQkYL06hQiN",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/ab67616d0000b2737188774239deeacff37365a1",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/ab67616d00001e027188774239deeacff37365a1",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/ab67616d000048517188774239deeacff37365a1",
+                                "width": 64
+                            }
+                        ],
+                        "is_playable": true,
+                        "name": "No Cap - A COLORS SHOW",
+                        "release_date": "2024-01-08",
+                        "release_date_precision": "day",
+                        "total_tracks": 1,
+                        "type": "album",
+                        "uri": "spotify:album:0n54S0AXVz8kQkYL06hQiN"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2x7PC78TmgqpEIjaGAZ0Oz"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/2x7PC78TmgqpEIjaGAZ0Oz",
+                            "id": "2x7PC78TmgqpEIjaGAZ0Oz",
+                            "name": "Trueno",
+                            "type": "artist",
+                            "uri": "spotify:artist:2x7PC78TmgqpEIjaGAZ0Oz"
+                        }
+                    ],
+                    "disc_number": 1,
+                    "duration_ms": 130069,
+                    "explicit": true,
+                    "external_ids": {
+                        "isrc": "USQX92400040"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/1h8rqVZnl80iJzZCMeCc8G"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/1h8rqVZnl80iJzZCMeCc8G",
+                    "id": "1h8rqVZnl80iJzZCMeCc8G",
+                    "is_local": false,
+                    "is_playable": true,
+                    "name": "No Cap - A COLORS SHOW",
+                    "popularity": 70,
+                    "preview_url": "https://p.scdn.co/mp3-preview/0d0a93713406e2f5add319a4e56cb19804b605dc?cid=ccbde3ac5eed42d9be7c79f147b19097",
+                    "track_number": 1,
+                    "type": "track",
+                    "uri": "spotify:track:1h8rqVZnl80iJzZCMeCc8G"
+                }
+            ]
+        },
+        {
+            "tracks": [
+                {
+                    "album": {
+                        "album_type": "album",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/5TYxZTjIPqKM8K8NuP9woO"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/5TYxZTjIPqKM8K8NuP9woO",
+                                "id": "5TYxZTjIPqKM8K8NuP9woO",
+                                "name": "C. Tangana",
+                                "type": "artist",
+                                "uri": "spotify:artist:5TYxZTjIPqKM8K8NuP9woO"
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/650sLMsoWUJ6AsjW2YvhCz"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/650sLMsoWUJ6AsjW2YvhCz",
+                        "id": "650sLMsoWUJ6AsjW2YvhCz",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/ab67616d0000b27381270569195d5607d5919628",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/ab67616d00001e0281270569195d5607d5919628",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/ab67616d0000485181270569195d5607d5919628",
+                                "width": 64
+                            }
+                        ],
+                        "is_playable": true,
+                        "name": "El Madrile\u00f1o (La Sobremesa)",
+                        "release_date": "2022-02-18",
+                        "release_date_precision": "day",
+                        "total_tracks": 23,
+                        "type": "album",
+                        "uri": "spotify:album:650sLMsoWUJ6AsjW2YvhCz"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/5TYxZTjIPqKM8K8NuP9woO"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/5TYxZTjIPqKM8K8NuP9woO",
+                            "id": "5TYxZTjIPqKM8K8NuP9woO",
+                            "name": "C. Tangana",
+                            "type": "artist",
+                            "uri": "spotify:artist:5TYxZTjIPqKM8K8NuP9woO"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/3VHAySZQPlfGlNLslzXYpN"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/3VHAySZQPlfGlNLslzXYpN",
+                            "id": "3VHAySZQPlfGlNLslzXYpN",
+                            "name": "NATHY PELUSO",
+                            "type": "artist",
+                            "uri": "spotify:artist:3VHAySZQPlfGlNLslzXYpN"
+                        }
+                    ],
+                    "disc_number": 1,
+                    "duration_ms": 240000,
+                    "explicit": false,
+                    "external_ids": {
+                        "isrc": "ES5022101546"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/5WxYU8RRzy5X0kC6Fx9SpI"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/5WxYU8RRzy5X0kC6Fx9SpI",
+                    "id": "5WxYU8RRzy5X0kC6Fx9SpI",
+                    "is_local": false,
+                    "is_playable": true,
+                    "name": "Ateo",
+                    "popularity": 63,
+                    "preview_url": "https://p.scdn.co/mp3-preview/15d57dd94945522b1e9a810b3bae46e6304ee275?cid=ccbde3ac5eed42d9be7c79f147b19097",
+                    "track_number": 16,
+                    "type": "track",
+                    "uri": "spotify:track:5WxYU8RRzy5X0kC6Fx9SpI"
+                },
+                {
+                    "album": {
+                        "album_type": "single",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/716NhGYqD1jl2wI1Qkgq36"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/716NhGYqD1jl2wI1Qkgq36",
+                                "id": "716NhGYqD1jl2wI1Qkgq36",
+                                "name": "Bizarrap",
+                                "type": "artist",
+                                "uri": "spotify:artist:716NhGYqD1jl2wI1Qkgq36"
+                            },
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/3VHAySZQPlfGlNLslzXYpN"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/3VHAySZQPlfGlNLslzXYpN",
+                                "id": "3VHAySZQPlfGlNLslzXYpN",
+                                "name": "NATHY PELUSO",
+                                "type": "artist",
+                                "uri": "spotify:artist:3VHAySZQPlfGlNLslzXYpN"
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/3aZthZKHMbbleXcilISjha"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/3aZthZKHMbbleXcilISjha",
+                        "id": "3aZthZKHMbbleXcilISjha",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/ab67616d0000b273559e8529d086f60e1752930b",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/ab67616d00001e02559e8529d086f60e1752930b",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/ab67616d00004851559e8529d086f60e1752930b",
+                                "width": 64
+                            }
+                        ],
+                        "is_playable": true,
+                        "name": "Nathy Peluso: Bzrp Music Sessions, Vol. 36",
+                        "release_date": "2020-11-27",
+                        "release_date_precision": "day",
+                        "total_tracks": 1,
+                        "type": "album",
+                        "uri": "spotify:album:3aZthZKHMbbleXcilISjha"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/716NhGYqD1jl2wI1Qkgq36"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/716NhGYqD1jl2wI1Qkgq36",
+                            "id": "716NhGYqD1jl2wI1Qkgq36",
+                            "name": "Bizarrap",
+                            "type": "artist",
+                            "uri": "spotify:artist:716NhGYqD1jl2wI1Qkgq36"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/3VHAySZQPlfGlNLslzXYpN"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/3VHAySZQPlfGlNLslzXYpN",
+                            "id": "3VHAySZQPlfGlNLslzXYpN",
+                            "name": "NATHY PELUSO",
+                            "type": "artist",
+                            "uri": "spotify:artist:3VHAySZQPlfGlNLslzXYpN"
+                        }
+                    ],
+                    "disc_number": 1,
+                    "duration_ms": 171215,
+                    "explicit": false,
+                    "external_ids": {
+                        "isrc": "UYB282001011"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/78SeXVRJ7KCqVmOwTiFjnI"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/78SeXVRJ7KCqVmOwTiFjnI",
+                    "id": "78SeXVRJ7KCqVmOwTiFjnI",
+                    "is_local": false,
+                    "is_playable": true,
+                    "name": "Nathy Peluso: Bzrp Music Sessions, Vol. 36",
+                    "popularity": 67,
+                    "preview_url": "https://p.scdn.co/mp3-preview/2a890f11e0b5b9985f93acc09dcf585d41afad77?cid=ccbde3ac5eed42d9be7c79f147b19097",
+                    "track_number": 1,
+                    "type": "track",
+                    "uri": "spotify:track:78SeXVRJ7KCqVmOwTiFjnI"
+                },
+                {
+                    "album": {
+                        "album_type": "album",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/0AqlFI0tz2DsEoJlKSIiT9"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/0AqlFI0tz2DsEoJlKSIiT9",
+                                "id": "0AqlFI0tz2DsEoJlKSIiT9",
+                                "name": "Emilia",
+                                "type": "artist",
+                                "uri": "spotify:artist:0AqlFI0tz2DsEoJlKSIiT9"
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/2qo8j9yZIsx66yDuUho2jp"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/2qo8j9yZIsx66yDuUho2jp",
+                        "id": "2qo8j9yZIsx66yDuUho2jp",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/ab67616d0000b273bfb94590c914538b193f6931",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/ab67616d00001e02bfb94590c914538b193f6931",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/ab67616d00004851bfb94590c914538b193f6931",
+                                "width": 64
+                            }
+                        ],
+                        "is_playable": true,
+                        "name": ".mp3",
+                        "release_date": "2023-11-03",
+                        "release_date_precision": "day",
+                        "total_tracks": 13,
+                        "type": "album",
+                        "uri": "spotify:album:2qo8j9yZIsx66yDuUho2jp"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/0AqlFI0tz2DsEoJlKSIiT9"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/0AqlFI0tz2DsEoJlKSIiT9",
+                            "id": "0AqlFI0tz2DsEoJlKSIiT9",
+                            "name": "Emilia",
+                            "type": "artist",
+                            "uri": "spotify:artist:0AqlFI0tz2DsEoJlKSIiT9"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/3VHAySZQPlfGlNLslzXYpN"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/3VHAySZQPlfGlNLslzXYpN",
+                            "id": "3VHAySZQPlfGlNLslzXYpN",
+                            "name": "NATHY PELUSO",
+                            "type": "artist",
+                            "uri": "spotify:artist:3VHAySZQPlfGlNLslzXYpN"
+                        }
+                    ],
+                    "disc_number": 1,
+                    "duration_ms": 145919,
+                    "explicit": false,
+                    "external_ids": {
+                        "isrc": "USSD12300582"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/2raFBS5ysJMxhd755bvAcf"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/2raFBS5ysJMxhd755bvAcf",
+                    "id": "2raFBS5ysJMxhd755bvAcf",
+                    "is_local": false,
+                    "is_playable": true,
+                    "name": "JET_Set.mp3",
+                    "popularity": 63,
+                    "preview_url": "https://p.scdn.co/mp3-preview/02de6689622d8bd20e0a1a0a201b36f792c9cafc?cid=ccbde3ac5eed42d9be7c79f147b19097",
+                    "track_number": 3,
+                    "type": "track",
+                    "uri": "spotify:track:2raFBS5ysJMxhd755bvAcf"
+                },
+                {
+                    "album": {
+                        "album_type": "album",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/3VHAySZQPlfGlNLslzXYpN"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/3VHAySZQPlfGlNLslzXYpN",
+                                "id": "3VHAySZQPlfGlNLslzXYpN",
+                                "name": "NATHY PELUSO",
+                                "type": "artist",
+                                "uri": "spotify:artist:3VHAySZQPlfGlNLslzXYpN"
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/2ab0PTJ5OG7I6YfSqpDFZv"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/2ab0PTJ5OG7I6YfSqpDFZv",
+                        "id": "2ab0PTJ5OG7I6YfSqpDFZv",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/ab67616d0000b273f9ee2021e4ce4ce4c06282b9",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/ab67616d00001e02f9ee2021e4ce4ce4c06282b9",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/ab67616d00004851f9ee2021e4ce4ce4c06282b9",
+                                "width": 64
+                            }
+                        ],
+                        "is_playable": true,
+                        "name": "GRASA",
+                        "release_date": "2024-05-24",
+                        "release_date_precision": "day",
+                        "total_tracks": 16,
+                        "type": "album",
+                        "uri": "spotify:album:2ab0PTJ5OG7I6YfSqpDFZv"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/3VHAySZQPlfGlNLslzXYpN"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/3VHAySZQPlfGlNLslzXYpN",
+                            "id": "3VHAySZQPlfGlNLslzXYpN",
+                            "name": "NATHY PELUSO",
+                            "type": "artist",
+                            "uri": "spotify:artist:3VHAySZQPlfGlNLslzXYpN"
+                        }
+                    ],
+                    "disc_number": 1,
+                    "duration_ms": 99850,
+                    "explicit": false,
+                    "external_ids": {
+                        "isrc": "ES5022400899"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/3IIwWeUz1DEKHfY01uej6N"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/3IIwWeUz1DEKHfY01uej6N",
+                    "id": "3IIwWeUz1DEKHfY01uej6N",
+                    "is_local": false,
+                    "is_playable": true,
+                    "name": "APRENDER A AMAR",
+                    "popularity": 60,
+                    "preview_url": "https://p.scdn.co/mp3-preview/4c41b67dc655eb6dea269075a2a0af88d3346898?cid=ccbde3ac5eed42d9be7c79f147b19097",
+                    "track_number": 2,
+                    "type": "track",
+                    "uri": "spotify:track:3IIwWeUz1DEKHfY01uej6N"
+                },
+                {
+                    "album": {
+                        "album_type": "single",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/3VHAySZQPlfGlNLslzXYpN"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/3VHAySZQPlfGlNLslzXYpN",
+                                "id": "3VHAySZQPlfGlNLslzXYpN",
+                                "name": "NATHY PELUSO",
+                                "type": "artist",
+                                "uri": "spotify:artist:3VHAySZQPlfGlNLslzXYpN"
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/3jHBdwS3nCuPC6lThrFJba"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/3jHBdwS3nCuPC6lThrFJba",
+                        "id": "3jHBdwS3nCuPC6lThrFJba",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/ab67616d0000b273add9c3004bd90375b28696a2",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/ab67616d00001e02add9c3004bd90375b28696a2",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/ab67616d00004851add9c3004bd90375b28696a2",
+                                "width": 64
+                            }
+                        ],
+                        "is_playable": true,
+                        "name": "VIVIR AS\u00cd ES MORIR DE AMOR",
+                        "release_date": "2021-12-10",
+                        "release_date_precision": "day",
+                        "total_tracks": 1,
+                        "type": "album",
+                        "uri": "spotify:album:3jHBdwS3nCuPC6lThrFJba"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/3VHAySZQPlfGlNLslzXYpN"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/3VHAySZQPlfGlNLslzXYpN",
+                            "id": "3VHAySZQPlfGlNLslzXYpN",
+                            "name": "NATHY PELUSO",
+                            "type": "artist",
+                            "uri": "spotify:artist:3VHAySZQPlfGlNLslzXYpN"
+                        }
+                    ],
+                    "disc_number": 1,
+                    "duration_ms": 257379,
+                    "explicit": false,
+                    "external_ids": {
+                        "isrc": "ES5022101685"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/75HnDKDqsmEzdOKFWe5FZS"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/75HnDKDqsmEzdOKFWe5FZS",
+                    "id": "75HnDKDqsmEzdOKFWe5FZS",
+                    "is_local": false,
+                    "is_playable": true,
+                    "name": "VIVIR AS\u00cd ES MORIR DE AMOR",
+                    "popularity": 63,
+                    "preview_url": "https://p.scdn.co/mp3-preview/aa8980eb1d7eebb59879557c5b83dc0bc2a38132?cid=ccbde3ac5eed42d9be7c79f147b19097",
+                    "track_number": 1,
+                    "type": "track",
+                    "uri": "spotify:track:75HnDKDqsmEzdOKFWe5FZS"
+                },
+                {
+                    "album": {
+                        "album_type": "album",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/3VHAySZQPlfGlNLslzXYpN"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/3VHAySZQPlfGlNLslzXYpN",
+                                "id": "3VHAySZQPlfGlNLslzXYpN",
+                                "name": "NATHY PELUSO",
+                                "type": "artist",
+                                "uri": "spotify:artist:3VHAySZQPlfGlNLslzXYpN"
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/2ab0PTJ5OG7I6YfSqpDFZv"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/2ab0PTJ5OG7I6YfSqpDFZv",
+                        "id": "2ab0PTJ5OG7I6YfSqpDFZv",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/ab67616d0000b273f9ee2021e4ce4ce4c06282b9",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/ab67616d00001e02f9ee2021e4ce4ce4c06282b9",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/ab67616d00004851f9ee2021e4ce4ce4c06282b9",
+                                "width": 64
+                            }
+                        ],
+                        "is_playable": true,
+                        "name": "GRASA",
+                        "release_date": "2024-05-24",
+                        "release_date_precision": "day",
+                        "total_tracks": 16,
+                        "type": "album",
+                        "uri": "spotify:album:2ab0PTJ5OG7I6YfSqpDFZv"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/3VHAySZQPlfGlNLslzXYpN"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/3VHAySZQPlfGlNLslzXYpN",
+                            "id": "3VHAySZQPlfGlNLslzXYpN",
+                            "name": "NATHY PELUSO",
+                            "type": "artist",
+                            "uri": "spotify:artist:3VHAySZQPlfGlNLslzXYpN"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/1bAftSH8umNcGZ0uyV7LMg"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/1bAftSH8umNcGZ0uyV7LMg",
+                            "id": "1bAftSH8umNcGZ0uyV7LMg",
+                            "name": "Duki",
+                            "type": "artist",
+                            "uri": "spotify:artist:1bAftSH8umNcGZ0uyV7LMg"
+                        }
+                    ],
+                    "disc_number": 1,
+                    "duration_ms": 192425,
+                    "explicit": false,
+                    "external_ids": {
+                        "isrc": "ES5022400908"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/1ky7iKY5camXBUrfRyHHhT"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/1ky7iKY5camXBUrfRyHHhT",
+                    "id": "1ky7iKY5camXBUrfRyHHhT",
+                    "is_local": false,
+                    "is_playable": true,
+                    "name": "MANHATTAN",
+                    "popularity": 63,
+                    "preview_url": "https://p.scdn.co/mp3-preview/34990fd0b6ad1dc23fa0cc09ad5f82dd26c197f8?cid=ccbde3ac5eed42d9be7c79f147b19097",
+                    "track_number": 11,
+                    "type": "track",
+                    "uri": "spotify:track:1ky7iKY5camXBUrfRyHHhT"
+                },
+                {
+                    "album": {
+                        "album_type": "album",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/3VHAySZQPlfGlNLslzXYpN"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/3VHAySZQPlfGlNLslzXYpN",
+                                "id": "3VHAySZQPlfGlNLslzXYpN",
+                                "name": "NATHY PELUSO",
+                                "type": "artist",
+                                "uri": "spotify:artist:3VHAySZQPlfGlNLslzXYpN"
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/2ab0PTJ5OG7I6YfSqpDFZv"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/2ab0PTJ5OG7I6YfSqpDFZv",
+                        "id": "2ab0PTJ5OG7I6YfSqpDFZv",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/ab67616d0000b273f9ee2021e4ce4ce4c06282b9",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/ab67616d00001e02f9ee2021e4ce4ce4c06282b9",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/ab67616d00004851f9ee2021e4ce4ce4c06282b9",
+                                "width": 64
+                            }
+                        ],
+                        "is_playable": true,
+                        "name": "GRASA",
+                        "release_date": "2024-05-24",
+                        "release_date_precision": "day",
+                        "total_tracks": 16,
+                        "type": "album",
+                        "uri": "spotify:album:2ab0PTJ5OG7I6YfSqpDFZv"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/3VHAySZQPlfGlNLslzXYpN"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/3VHAySZQPlfGlNLslzXYpN",
+                            "id": "3VHAySZQPlfGlNLslzXYpN",
+                            "name": "NATHY PELUSO",
+                            "type": "artist",
+                            "uri": "spotify:artist:3VHAySZQPlfGlNLslzXYpN"
+                        }
+                    ],
+                    "disc_number": 1,
+                    "duration_ms": 184058,
+                    "explicit": false,
+                    "external_ids": {
+                        "isrc": "ES5022400901"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/47Y7zbY54UmViUUDUrq7Sk"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/47Y7zbY54UmViUUDUrq7Sk",
+                    "id": "47Y7zbY54UmViUUDUrq7Sk",
+                    "is_local": false,
+                    "is_playable": true,
+                    "name": "LEGENDARIO",
+                    "popularity": 63,
+                    "preview_url": "https://p.scdn.co/mp3-preview/b62683aa9077105b032dfed7c8cb26b67e30a512?cid=ccbde3ac5eed42d9be7c79f147b19097",
+                    "track_number": 4,
+                    "type": "track",
+                    "uri": "spotify:track:47Y7zbY54UmViUUDUrq7Sk"
+                },
+                {
+                    "album": {
+                        "album_type": "single",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/3VHAySZQPlfGlNLslzXYpN"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/3VHAySZQPlfGlNLslzXYpN",
+                                "id": "3VHAySZQPlfGlNLslzXYpN",
+                                "name": "NATHY PELUSO",
+                                "type": "artist",
+                                "uri": "spotify:artist:3VHAySZQPlfGlNLslzXYpN"
+                            },
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/5Y3MV9DZ0d87NnVm56qSY1"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/5Y3MV9DZ0d87NnVm56qSY1",
+                                "id": "5Y3MV9DZ0d87NnVm56qSY1",
+                                "name": "Tiago PZK",
+                                "type": "artist",
+                                "uri": "spotify:artist:5Y3MV9DZ0d87NnVm56qSY1"
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/0VSnZVbjbufIZYKwy3Rafu"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/0VSnZVbjbufIZYKwy3Rafu",
+                        "id": "0VSnZVbjbufIZYKwy3Rafu",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/ab67616d0000b27301051b2c13af9cf98e8e5f49",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/ab67616d00001e0201051b2c13af9cf98e8e5f49",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/ab67616d0000485101051b2c13af9cf98e8e5f49",
+                                "width": 64
+                            }
+                        ],
+                        "is_playable": true,
+                        "name": "ELLA TIENE",
+                        "release_date": "2023-09-15",
+                        "release_date_precision": "day",
+                        "total_tracks": 1,
+                        "type": "album",
+                        "uri": "spotify:album:0VSnZVbjbufIZYKwy3Rafu"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/3VHAySZQPlfGlNLslzXYpN"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/3VHAySZQPlfGlNLslzXYpN",
+                            "id": "3VHAySZQPlfGlNLslzXYpN",
+                            "name": "NATHY PELUSO",
+                            "type": "artist",
+                            "uri": "spotify:artist:3VHAySZQPlfGlNLslzXYpN"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/5Y3MV9DZ0d87NnVm56qSY1"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/5Y3MV9DZ0d87NnVm56qSY1",
+                            "id": "5Y3MV9DZ0d87NnVm56qSY1",
+                            "name": "Tiago PZK",
+                            "type": "artist",
+                            "uri": "spotify:artist:5Y3MV9DZ0d87NnVm56qSY1"
+                        }
+                    ],
+                    "disc_number": 1,
+                    "duration_ms": 196800,
+                    "explicit": false,
+                    "external_ids": {
+                        "isrc": "ES5022302087"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/31YHWv22Lyv9iKBepk3guM"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/31YHWv22Lyv9iKBepk3guM",
+                    "id": "31YHWv22Lyv9iKBepk3guM",
+                    "is_local": false,
+                    "is_playable": true,
+                    "name": "ELLA TIENE",
+                    "popularity": 62,
+                    "preview_url": "https://p.scdn.co/mp3-preview/9a6b1f069da3fb2815891056e6e466025548645e?cid=ccbde3ac5eed42d9be7c79f147b19097",
+                    "track_number": 1,
+                    "type": "track",
+                    "uri": "spotify:track:31YHWv22Lyv9iKBepk3guM"
+                },
+                {
+                    "album": {
+                        "album_type": "album",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/3VHAySZQPlfGlNLslzXYpN"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/3VHAySZQPlfGlNLslzXYpN",
+                                "id": "3VHAySZQPlfGlNLslzXYpN",
+                                "name": "NATHY PELUSO",
+                                "type": "artist",
+                                "uri": "spotify:artist:3VHAySZQPlfGlNLslzXYpN"
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/0HvKhpJzjmC5wloza8MjXF"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/0HvKhpJzjmC5wloza8MjXF",
+                        "id": "0HvKhpJzjmC5wloza8MjXF",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/ab67616d0000b2735eb6fc30c41f63356f7af40a",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/ab67616d00001e025eb6fc30c41f63356f7af40a",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/ab67616d000048515eb6fc30c41f63356f7af40a",
+                                "width": 64
+                            }
+                        ],
+                        "is_playable": true,
+                        "name": "Calambre",
+                        "release_date": "2020-10-02",
+                        "release_date_precision": "day",
+                        "total_tracks": 12,
+                        "type": "album",
+                        "uri": "spotify:album:0HvKhpJzjmC5wloza8MjXF"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/3VHAySZQPlfGlNLslzXYpN"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/3VHAySZQPlfGlNLslzXYpN",
+                            "id": "3VHAySZQPlfGlNLslzXYpN",
+                            "name": "NATHY PELUSO",
+                            "type": "artist",
+                            "uri": "spotify:artist:3VHAySZQPlfGlNLslzXYpN"
+                        }
+                    ],
+                    "disc_number": 1,
+                    "duration_ms": 240315,
+                    "explicit": false,
+                    "external_ids": {
+                        "isrc": "ES5022000312"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/2my7K20Fv5OtE27cjG9sfu"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/2my7K20Fv5OtE27cjG9sfu",
+                    "id": "2my7K20Fv5OtE27cjG9sfu",
+                    "is_local": false,
+                    "is_playable": true,
+                    "name": "BUENOS AIRES",
+                    "popularity": 61,
+                    "preview_url": "https://p.scdn.co/mp3-preview/eeed9068c0dd9f4dac84a4f0bba4de956fc22012?cid=ccbde3ac5eed42d9be7c79f147b19097",
+                    "track_number": 3,
+                    "type": "track",
+                    "uri": "spotify:track:2my7K20Fv5OtE27cjG9sfu"
+                },
+                {
+                    "album": {
+                        "album_type": "album",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/3VHAySZQPlfGlNLslzXYpN"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/3VHAySZQPlfGlNLslzXYpN",
+                                "id": "3VHAySZQPlfGlNLslzXYpN",
+                                "name": "NATHY PELUSO",
+                                "type": "artist",
+                                "uri": "spotify:artist:3VHAySZQPlfGlNLslzXYpN"
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/2ab0PTJ5OG7I6YfSqpDFZv"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/2ab0PTJ5OG7I6YfSqpDFZv",
+                        "id": "2ab0PTJ5OG7I6YfSqpDFZv",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/ab67616d0000b273f9ee2021e4ce4ce4c06282b9",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/ab67616d00001e02f9ee2021e4ce4ce4c06282b9",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/ab67616d00004851f9ee2021e4ce4ce4c06282b9",
+                                "width": 64
+                            }
+                        ],
+                        "is_playable": true,
+                        "name": "GRASA",
+                        "release_date": "2024-05-24",
+                        "release_date_precision": "day",
+                        "total_tracks": 16,
+                        "type": "album",
+                        "uri": "spotify:album:2ab0PTJ5OG7I6YfSqpDFZv"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/3VHAySZQPlfGlNLslzXYpN"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/3VHAySZQPlfGlNLslzXYpN",
+                            "id": "3VHAySZQPlfGlNLslzXYpN",
+                            "name": "NATHY PELUSO",
+                            "type": "artist",
+                            "uri": "spotify:artist:3VHAySZQPlfGlNLslzXYpN"
+                        }
+                    ],
+                    "disc_number": 1,
+                    "duration_ms": 179051,
+                    "explicit": false,
+                    "external_ids": {
+                        "isrc": "ES5022400900"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/0uRntQYQmiuUsbU53QB7i4"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/0uRntQYQmiuUsbU53QB7i4",
+                    "id": "0uRntQYQmiuUsbU53QB7i4",
+                    "is_local": false,
+                    "is_playable": true,
+                    "name": "REAL",
+                    "popularity": 60,
+                    "preview_url": "https://p.scdn.co/mp3-preview/3274b5a07257148462fc3765e55933b5115d7341?cid=ccbde3ac5eed42d9be7c79f147b19097",
+                    "track_number": 3,
+                    "type": "track",
+                    "uri": "spotify:track:0uRntQYQmiuUsbU53QB7i4"
+                }
+            ]
+        }
+    ]
+}
