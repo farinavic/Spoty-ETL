@@ -6,9 +6,12 @@ WORKDIR /app
 
 # Instalamos Airflow y las dependencias necesarias
 RUN pip install apache-airflow==2.2.2 \
-    && pip install python-dotenv requests psycopg2-binary SQLAlchemy==1.4.38
-
-# Copiamos los archivos de tu proyecto al contenedor
+    && pip install python-dotenv requests psycopg2-binary SQLAlchemy==1.4.38 \
+    && pip install yfinance \
+    && pip install psycopg2-binary \                                              
+    && pip install sendgrid                         
+                                                    
+# Copiamos los archivos de tu proyecto a                                                                                                                                                                                                                                                                    l contenedor
 COPY . /app
 # Copiamos el archivo del DAG a la carpeta de dags de Airflow
 #COPY dag.py /app/airflow/dags/
@@ -26,6 +29,8 @@ RUN airflow db init \
         --role Admin \
         --email airflowadmin@example.com \
         --password airflow
+        
+
 
 
 
