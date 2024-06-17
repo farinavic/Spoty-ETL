@@ -5,41 +5,40 @@ import requests as r
 import json
 import pandas as pd
 import sqlalchemy as sqla
-
 import psycopg2
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 from airflow.utils.dates import days_ago
-
-
+from sendgrid import SendGridAPIClient
+from sendgrid.helpers.mail import Mail
 
 # Ruta del DAG
 dag_path = os.getcwd()
+config_file_path= dag_path+'/keys/'+'config.json'
 
-#Cargar credenciales de la API de Spotify
-with open(dag_path+'/keys/'+"CLIENT_ID_SP.txt",'r') as f:
-    client_id=f.read()
-with open(dag_path+'/keys/'+"CLIENT_SECRET_SP.txt",'r') as f:
-    client_secret=f.read()
-with open(dag_path+'/keys/'+"USER_RS.txt",'r') as f:
-    rs_user=f.read()
-with open(dag_path+'/keys/'+"PW_RS.txt",'r') as f:
-   rs_password= f.read()
-with open(dag_path+'/keys/'+"PORT_RS.txt",'r') as f:
-   rs_port= f.read()
-with open(dag_path+'/keys/'+"HOST_RS.txt",'r') as f:
-   rs_host= f.read()
-with open(dag_path+'/keys/'+"DB_RS.txt",'r') as f:
-   rs_db= f.read()
+def read_config(config_file_path):
+    with open(config_file_path, 'r') as file:
+        config = json.load(file)
+        CLIENT_ID_SP = config["CLIENT_ID_SP"]
+        CLIENT_SECRET_SP = config["CLIENT_SECRET_SP"]
+        DW_USER = config["DW_USER"]
+        DW_PW = config["DW_PW"]
+        SENDGRID_API_KEY = config["SENDGRID_API_KEY"]
+        EMAIL_TO = config["EMAIL_TO"]
+        EMAIL_FROM = config["EMAIL_FROM"]
+        
+    return CLIENT_ID_SP, CLIENT_SECRET_SP, DW_USER, DW_PW, SENDGRID_API_KEY, EMAIL_TO, EMAIL_FROM
+
+CLIENT_ID_API, CLIENT_SECRET_API, DW_USER, DW_PW, SENDGRID_API_KEY, EMAIL_TO, EMAIL_FROM = read_config(config_file_path)
 
 
-# Credenciales de conexión a Redshift
+# Conexión al Datawarehouse
 redshift_conn = {
-    'host':rs_host,
-    'username': rs_user,
-    'database': rs_db,
-    'port': rs_port,
-    'pwd': rs_password
+    'host': 'data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com',
+    'username': DW_USER,
+    'database': 'data-engineer-database',
+    'port': '5439',
+    'pwd': DW_PW
 }
 
 # Argumentos para el DAG
@@ -59,10 +58,8 @@ spotify_dag = DAG(
 )
 
 # Funciones de ETL
-
 def get_token():
-
-    auth_string = client_id + ':' + client_secret
+    auth_string = CLIENT_ID_API + ':' + CLIENT_SECRET_API
     auth_bytes = auth_string.encode('utf-8')
     auth_base64 = str(base64.b64encode(auth_bytes), 'utf-8')
 
@@ -104,7 +101,7 @@ def get_top_songs_by_artist(token, artist_id):
     return json_result
 
 # Función de extracción
-def extraer_data(exec_date):
+def extract_data(exec_date):
     artist_names = ['Wos', 'Trueno', 'Nathy Peluso']
     token = get_token()
     total_songs = {'results': []}
@@ -115,13 +112,13 @@ def extraer_data(exec_date):
         total_songs['results'].append(artist_songs)
     
     date = datetime.strptime(exec_date, '%Y-%m-%d %H')
-    with open(dag_path+'/raw_data/'+"data_"+str(date.year)+'-'+str(date.month)+'-'+str(date.day)+'-'+str(date.hour)+".json", "w") as json_file:
+    with open(dag_path + '/raw_data/' + "data_" + date.strftime('%Y-%m-%d-%H') + ".json", "w") as json_file:
         json.dump(total_songs, json_file)
 
 # Función de transformación
-def transformar_data(exec_date):
+def transform_data(exec_date):
     date = datetime.strptime(exec_date, '%Y-%m-%d %H')
-    with open(dag_path+'/raw_data/'+"data_"+str(date.year)+'-'+str(date.month)+'-'+str(date.day)+'-'+str(date.hour)+".json", "r") as json_file:
+    with open(dag_path + '/raw_data/' + "data_" + date.strftime('%Y-%m-%d-%H') + ".json", "r") as json_file:
         loaded_data = json.load(json_file)
 
     artist_names = ['Wos', 'Trueno', 'Nathy Peluso']
@@ -156,10 +153,10 @@ def transformar_data(exec_date):
         i += 1
 
     df = pd.DataFrame(data)
-    df.to_csv(dag_path+'/processed_data/'+"data_"+str(date.year)+'-'+str(date.month)+'-'+str(date.day)+'-'+str(date.hour)+".csv", index=False)
+    df.to_csv(dag_path + '/processed_data/' + "data_" + date.strftime('%Y-%m-%d-%H') + ".csv", index=False)
 
-# Función de conexión a Redshift
-def conexion_redshift(exec_date):
+# Función de conexión al Datawarehouse
+def conexion_dw(exec_date):
     print(f"Conectándose a la BD en la fecha: {exec_date}")
     try:
         conn = psycopg2.connect(
@@ -174,9 +171,9 @@ def conexion_redshift(exec_date):
         print(e)
 
 # Función de carga de datos
-def cargar_data(exec_date):
+def load_data(exec_date):
     date = datetime.strptime(exec_date, '%Y-%m-%d %H')
-    records = pd.read_csv(dag_path+'/processed_data/'+"data_"+str(date.year)+'-'+str(date.month)+'-'+str(date.day)+'-'+str(date.hour)+".csv")
+    records = pd.read_csv(dag_path + '/processed_data/' + "data_" + date.strftime('%Y-%m-%d-%H') + ".csv")
     
     conn = psycopg2.connect(
         host=redshift_conn["host"],
@@ -196,34 +193,89 @@ def cargar_data(exec_date):
     psycopg2.extras.execute_values(cur, insert_sql, values)
     cur.execute("COMMIT")
 
+# Función para enviar el correo si hay cambios en los datos
+def send_email_if_update(exec_date):
+    date = datetime.strptime(exec_date, '%Y-%m-%d %H')
+    current_filename = f"{dag_path}/raw_data/data_{date.strftime('%Y-%m-%d-%H')}.json"
+    compare_file=f"{dag_path}/raw_data/compare.json"
+    
+    # Load the current data
+    with open(current_filename, 'r') as current_file:
+        current_data = json.load(current_file)
+    
+    # Load the previous data from compare.json
+    with open(compare_file, 'r') as previous_file:
+        previous_data = json.load(previous_file)
+
+    # Compare current data with previous data
+    changes = []
+    current_songs = {(track['id'], track['popularity']) for artist in current_data['results'] for track in artist['tracks']}
+    previous_songs = {(track['id'], track['popularity']) for artist in previous_data['results'] for track in artist['tracks']}
+    
+    # Check for new or changed songs
+    new_or_changed_songs = current_songs - previous_songs
+    
+    for artist in current_data['results']:
+        for track in artist['tracks']:
+            if (track['id'], track['popularity']) in new_or_changed_songs:
+                changes.append(f"Song: {track['name']}, Popularity: {track['popularity']}, Artist: {track['artists'][0]['name']}")
+
+    if changes:
+        # Send an email with changes
+        message = Mail(
+            from_email=EMAIL_FROM,
+            to_emails=EMAIL_TO,
+            subject='Spotify Top Songs Updates',
+            html_content='<br>'.join(changes)
+        )
+        sg = SendGridAPIClient(SENDGRID_API_KEY)
+        response = sg.send(message)
+        print(response.status_code)
+    #print(current_data+ previous_data + 'PRINTPRINT')
+
+    # Update the compare.json file with the current data
+    with open(compare_file, 'w') as compare_file:
+        json.dump(current_data, compare_file)
+
+
+
 # Definición de tareas en el DAG
-task_1 = PythonOperator(
-    task_id='extraer_data',
-    python_callable=extraer_data,
+extract_data_task = PythonOperator(
+    task_id='extract_data',
+    python_callable=extract_data,
     op_args=["{{ ds }} {{ execution_date.hour }}"],
     dag=spotify_dag,
 )
 
-task_2 = PythonOperator(
-    task_id='transformar_data',
-    python_callable=transformar_data,
+transform_data_task = PythonOperator(
+    task_id='transform_data',
+    python_callable=transform_data,
     op_args=["{{ ds }} {{ execution_date.hour }}"],
     dag=spotify_dag,
 )
 
-task_31 = PythonOperator(
-    task_id="conexion_BD",
-    python_callable=conexion_redshift,
+dw_connection_task = PythonOperator(
+    task_id="dw_connection",
+    python_callable=conexion_dw,
     op_args=["{{ ds }} {{ execution_date.hour }}"],
     dag=spotify_dag
 )
 
-task_32 = PythonOperator(
-    task_id='cargar_data',
-    python_callable=cargar_data,
+load_data_task = PythonOperator(
+    task_id='load_data',
+    python_callable=load_data,
     op_args=["{{ ds }} {{ execution_date.hour }}"],
     dag=spotify_dag,
 )
 
+send_email_if_update_task = PythonOperator(
+    task_id='send_email_if_update',
+    python_callable=send_email_if_update,
+    op_args=["{{ ds }} {{ execution_date.hour }}"],
+    provide_context=True,
+    dag=spotify_dag
+)
+
 # Definición del orden de tareas
-task_1 >> task_2 >> task_31 >> task_32
+extract_data_task >> transform_data_task >> dw_connection_task >> load_data_task
+extract_data_task >> transform_data_task >> send_email_if_update_task
