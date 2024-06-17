@@ -63,7 +63,7 @@ x-airflow-common:
     - ./raw_data:/opt/airflow/raw_data
     - ./processed_data:/opt/airflow/processed_data
     - ./keys:/opt/airflow/keys
-  #env_file: .env
+  #env_file: credentials.env
   user: "${AIRFLOW_UID:-50000}:${AIRFLOW_GID:-50000}"
   depends_on:
     postgres:
@@ -89,6 +89,7 @@ services:
   airflow-webserver:
     <<: *airflow-common
     command: webserver
+     
     ports:
       - 8080:8080
     healthcheck:
@@ -114,5 +115,6 @@ services:
       _AIRFLOW_WWW_USER_USERNAME: ${_AIRFLOW_WWW_USER_USERNAME:-airflow}
       _AIRFLOW_WWW_USER_PASSWORD: ${_AIRFLOW_WWW_USER_PASSWORD:-airflow}
       
+       
 volumes:
   postgres-db-volume:
